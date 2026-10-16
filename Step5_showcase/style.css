@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* --- Barre de navigation --- */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+    background-color: #fff;
+}
+
+.main-nav .logo {
+    width: 110px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.main-nav ul li {
+    padding: 0 10px;
+}
+
+.main-nav ul li a {
+    color: #262626;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 2px solid #262626;
+}
+
+/* --- Section Showcase --- */
+.showcase {
+    width: 100%;
+    height: 400px;
+    background: #fff url('../img/slide1.png') no-repeat top center;
+    background-size: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.showcase h2, .showcase p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #378ff5;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.dark {
+    color: #fff;
+}
+
+.dark .btn {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* --- Reste de la mise en page (temporaire) --- */
+.home-cards, .ruban, .follow, .links, .sub-footer, #bigData-intro {
+    background-color: #d3eaac;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+footer {
+    width: 100%;
+}
